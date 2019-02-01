@@ -1,0 +1,496 @@
+@charset "utf-8";
+
+html {
+	font-family:sans-serif;
+}
+
+a {
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	padding:0px;
+	margin:0px;
+}
+
+#all {
+	background-color:lightcyan;
+	background-color:#e6e6e6;
+	/*background-color:white;*/
+	min-height: 100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+
+}
+
+/*HEADER*/
+
+#top {
+	display:flex;
+	flex-direction: row;
+	width:100%;
+	/*background-color:skyblue;*/
+	background-color:#eef7f5;
+	background-color:black;
+	justify-content:space-between;
+
+	align-items: center;
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:1em;
+	padding-bottom:1em;
+	box-sizing:border-box;
+}
+
+/*#logo img {
+	width:8em;
+	height:auto;
+}
+*/
+#box img{
+
+	height:4em;
+	width:auto;
+}
+/*
+#box2 img {
+	height:6em;
+	width:auto;
+}
+*/
+#box2 img {
+	height:6em;
+	width:auto;
+}
+
+/*#social {
+	width:40%;
+}*/
+
+#social img {
+	width:3em;
+	height:auto;
+	/*background-color:skyblue;*/
+transition: transform .3s linear 0s,opacity .3s linear 0s;
+}
+
+#social img:hover {
+transform: scale(1.5);
+}
+
+
+/*NAVEGADOR*/
+nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:darkgray;
+	background-color:#c8d4ce;
+  text-align:center;
+  padding-left: 3em;
+  padding-right:3em;
+  height:3em;
+  align-items: center;
+	font-size: 1.1em;
+
+
+}
+nav a {
+	color:white;
+	color:black;
+	transition: transform .1s linear 0s,opacity .3s linear 0s;
+}
+
+nav a:hover {
+	transform: scale(1.1);
+}
+
+nav a:visited {
+	color:white;
+	color:black;
+}
+
+nav img {
+  width:1em;
+  height:auto;
+  text-align: right;  /*como lo pongo a la derecha? */
+}
+#menu {
+
+  display:none;
+}
+
+#menu_cerrar {
+
+  display:none;
+}
+
+/*MAIN*/
+
+
+h1 {
+	text-align: center;
+	/*background-color:orange;*/
+}
+
+main {
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+#bio {
+	display:flex;
+	flex-direction: row;
+	min-height:100vh;
+
+}
+
+#p_bio {
+	padding:0.5em;
+}
+
+#p_bio .p_resume {
+	padding-top:6em;   /* esto no funciona */
+}
+
+#photo {
+	width:40%;
+	background-color:darkgray;
+	padding-top: 2em;
+	padding:3em;
+
+}
+#photo img {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+		box-sizing:border-box;
+}
+
+#text_right {
+padding: 2em;
+	display:block;
+}
+
+#cv {
+	width:80%;
+}
+
+a {
+	color:black;
+}
+
+a:visited {
+	black;
+}
+
+p {
+	text-align: justify;
+}
+
+#intro {
+	display:flex;
+
+}
+
+#intro img {
+	padding-left:3.5em;
+	height:10em;
+	width:auto;
+}
+
+#intro #pc img{
+	width:1em;
+	height:1em;
+}
+
+#intro p {
+	font-size: 1.2em;
+	padding-left:3em;
+	padding-right:3em;
+
+}
+
+#intro2 {
+	display:flex;
+
+}
+
+
+#intro2 p {
+	width:55%;
+	height:auto;
+	font-size: 1.2em;
+	padding-left:3em;
+	padding-right:4em;
+	padding-top: 1em;
+}
+#intro2 img {
+
+	height:10em;
+	width:auto;
+}
+
+/*FOOTER*/
+footer {
+	width:100%;
+	text-align:center;
+	background-color:darkgray;
+	background-color:#c8d4ce;
+	padding:1em;
+	padding-left:3em;
+	padding-right:3em;
+}
+
+footer a {
+	color:white;
+	color:black;
+}
+
+footer a:visited {
+	color:white;
+	color:black;
+}
+
+a {
+	text-decoration:none;
+}
+
+/* RESOLUCIONES MAS BAJAS  */
+
+
+
+@media(max-width:900px) {      /* TABLETS (1024 x 600 ordenadores)*/
+
+	.text {
+		font-size:0.8em;
+	}
+
+	#service img {
+		width:auto;
+		height:8em;}
+
+		#box img{
+			height:3em;
+			width:auto;
+		}
+
+		#box2 img {
+			height:4em;
+			width:auto;}
+
+		#social img {
+			width:2em;
+			height:auto;
+}
+
+
+
+@media(max-width:800px) {
+	#body {
+		padding-top:3em;
+	}
+
+	#box2 img {
+
+	  display:none;
+	}
+
+	h1 {
+		font-size:1em;
+		padding-top:3em;
+		text-align:center;
+	}
+
+	.text {
+		font-size:0.8em;
+	}
+
+	#service {
+		display:block;
+
+	}
+
+	#service1, #service2, #service3, #service4 {
+		display:block;
+		width:15em;
+		margin-left:auto;
+		margin-right:auto;
+		align-items: center;
+		}
+
+	#services img {
+		width:15em;
+		height:auto;
+
+		height:auto;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		z-index:20;
+
+	}
+	/*display block y text align center*/
+
+	.text {
+		text-align:right;
+		width:19em;
+		position:absolute;
+		margin-top:-15em;
+
+		margin-left: auto;
+		margin-right:auto;
+		padding:0px;
+		border:0px;
+		/*opacity: 0.5;
+		transition: opacity .3s linear 0s;*/
+	}
+
+
+	#service .text p{
+
+		display:none;
+	}
+
+
+
+	#service img:hover {
+		opacity: 0.5;
+		transition: opacity .3s linear 0s;
+		border-style:solid;
+
+		/*imagen transparente*/
+	}
+
+	h2:hover .img_service{
+		opacity: 0.5;
+		transition: opacity .3s linear 0s;
+		border-style:solid;
+		/*imagen transparente*/
+	}
+
+
+h2 {
+	opacity:0;
+}
+
+
+
+
+
+#service1:hover h2 {
+
+		opacity: 1;
+	}
+
+#service2:hover h2 {
+
+			opacity: 1;
+		}
+#service3:hover h2 {
+
+				opacity: 1;
+			}
+#service4:hover h2 {
+
+					opacity: 1;
+	}
+
+.img_service:hover .text {    /*NO FUNCIONA Y NO SE PQ*/
+		/*display:block;
+		z-index:20;*/
+		border-style:solid;
+		opacity:1;
+		transition: opacity .3s linear 0s;
+
+	}
+
+	#top {
+		position:fixed;
+		width:100%;
+	}
+
+	#logo img {
+		width:6em;
+		height:auto;
+	}
+
+	#social img {
+		width:2em;
+		height:auto;
+		/*background-color:skyblue;*/
+	}
+
+	#menu {
+		position:fixed;
+		width:2em;
+		height:auto;
+		right: 1em;
+		top:7em;  /*como tiene position fixed lo coloco con
+		top, right, etc. no con margenes! */
+		display:block;
+		z-index:11;
+	}
+
+	#menu.menuabierto {
+		display:none;
+
+	}
+
+	#menu_cerrar {
+		position:fixed;
+		width:2em;
+		height:auto;
+		right: 1em;
+		top:7em;  /*como tiene position fixed lo coloco con
+		top, right, etc. no con margenes! */
+		display:none;
+		z-index:11;
+	}
+
+	#menu_cerrar.menuabierto {
+		display:block;
+	}
+
+
+	#navegador {
+		display: none;
+		/*transform: translateX(0%);
+		transform: scale(0);
+		transition: transform 0.6s linear 0s;  ESTO NO ME FUNCIONA*/
+	}
+
+	#navegador.menuabierto {
+		/*#navegador { */
+			width:90%;
+			height:90%;  /*100% means toda la altura de visualizacion*/
+			display:block;
+			display:flex;
+			flex-direction:column;
+			position:fixed;
+			top:4.8em;
+			right:0em;
+			direction:column;
+			justify-content: space-around;
+			z-index:10;
+			background-color:rgba(200,212,206,0.75);
+			/*c8d4ce*/
+			text-align:center;
+
+			/*transform: translateX(100%);*/
+			}
+#navegador.menuabierto a{
+	font-size: 1.1em;
+}
+
+a {
+		color:black;
+}
+
+/* y si al pasar por encima sale el texto
+}
+*/
