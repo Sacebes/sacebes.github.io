@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>MongoDB</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Tweepy_nochevieja</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=no">
+
 <style type="text/css">
     /*!
 *
@@ -23,8 +23,6 @@ html {
 }
 body {
   margin: 0;
-  /* by sas */
-  margin-bottom:10em;
 }
 article,
 aside,
@@ -11744,59 +11742,7 @@ div#notebook {
 }
 </style>
 
-<!-- css file by default -->
-<link href="css/index.css" rel="stylesheet" type="text/css">
-
-<style>
-body {
-  margin: 0;
-  /* by sas */
-  margin-bottom:10em;
-}
-</style>
-
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
-<div id="all"> <!-- "all" (1)top_and_body and  (2) footer. To keep the footer down -->
-  <div id="top_and_body">
-    <header>
-    <div id="top">
-        <div id="title">
-            <!-- <h2> Sandra Acebes </h2> -->
-            <!--<img src="Imagenes/logo-ceoe-gu.png" width="194" height="60" alt="logo mi empresa"/> -->
-        </div>
-        <div id="box">
-          <a href="index.html" title="info" target="_self"><img src="Imagenes/logo2.png" alt="" title=""/></a>
-        </div>
-          <!-- <img src="Imagenes/box.png" alt="" title=""/> -->
-        <div id="box2"><img src="Imagenes/box4.png" alt="" title=""/></div>
-
-        <div id="social">
-          <a href="https://www.linkedin.com/in/sandra-acebes" title="linkedin" target="new"><img src="Imagenes/linkedin2.png" alt="linkedin sandra-acebes" title="sandra-acebes"/></a>
-          <a href="mailto:sandra.acebes@gmail.com" target="new"><img src="Imagenes/gmail2.png" alt="mail" title="send mail"/></a>
-          <a href="https://scholar.google.es/citations?user=mrA8_LIAAAAJ&hl=es&oi=ao" title="Google" target="new"><img src="Imagenes/google2.png" alt="google" title="google scholar"/></a>
-          <a href="https://github.com/Sacebes" title="Github" target="new"><img src="Imagenes/github2.png" alt="github" title="github"/></a>
-        </div>
-    </div>
-    </header>
-
-    <img id="menu" onClick="menu.className='menuabierto',menu_cerrar.className='menuabierto',navegador.className='menuabierto'" src="imagenes/abrirmenu.png" width="30" height="30" alt="abrir"/>
-    <img id="menu_cerrar" onClick="menu.className='',menu_cerrar.className='',navegador.className=''" src="imagenes/cerrarmenu.png" width="30" height="30" alt=""/>
-    <nav id="navegador">
-      <a href="index.html" title="info" target="_self">Home</a>
-      <a href="python_index.html" title="info" target="_self">Python</a>
-      <a href="mongo_index.html" title="info" target="_self">MongoDB</a>
-      <a href="pandas_index.html" title="info" target="_self">Pandas</a>
-      <a href="scikitlearn_index.html" title="info" target="_self">Scikitlearn</a>
-      <a href="matplotlib_index.html" title="info" target="_self">Tableau</a>
-      <a href="aboutme_index.html" title="info" target="_self">About me</a>
-    </nav>
-
-
-<a href="mongo_index.html" title="info" target="_self"><h1>MongoDB</h1></a>
-
-
-
-
 <link rel="stylesheet" href="custom.css">
 
 <!-- Loading mathjax macro -->
@@ -11820,50 +11766,104 @@ body {
         }
     });
     </script>
-    <link rel="icon" type="image/png" href="Imagenes/slogo.png" />
+    <meta charset="utf-8">
+    <title>Sandra Acebes </title>
+    <meta name="description" content="Github porfolio by Sandra Acebes containing data sicence material, including pandas, scikitlearn, machine learning, big data">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
 
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="Imagenes/slogo.png" />
     <!-- End of mathjax configuration --></head>
 <body>
+  <div id="all"> <!-- "all" (1)top_and_body and  (2) footer. To keep the footer down -->
+		<div id="top_and_body">
+			<header>
+			<div id="top">
+					<div id="title">
+							<!-- <h2> Sandra Acebes </h2> -->
+							<!--<img src="Imagenes/logo-ceoe-gu.png" width="194" height="60" alt="logo mi empresa"/> -->
+					</div>
+					<div id="box">
+						<a href="index.html" title="info" target="_self"><img src="Imagenes/logo2.png" alt="" title=""/></a>
+					</div>
+						<!-- <img src="Imagenes/box.png" alt="" title=""/> -->
+					<div id="box2"><img src="Imagenes/box4.png" alt="" title=""/></div>
+
+					<div id="social">
+						<a href="https://www.linkedin.com/in/sandra-acebes" title="linkedin" target="new"><img src="Imagenes/linkedin2.png" alt="linkedin sandra-acebes" title="sandra-acebes"/></a>
+						<a href="mailto:sandra.acebes@gmail.com" target="new"><img src="Imagenes/gmail2.png" alt="mail" title="send mail"/></a>
+						<a href="https://scholar.google.es/citations?user=mrA8_LIAAAAJ&hl=es&oi=ao" title="Google" target="new"><img src="Imagenes/google2.png" alt="google" title="google scholar"/></a>
+						<a href="https://github.com/Sacebes" title="Github" target="new"><img src="Imagenes/github2.png" alt="github" title="github"/></a>
+					</div>
+			</div>
+		  </header>
+
+			<img id="menu" onClick="menu.className='menuabierto',menu_cerrar.className='menuabierto',navegador.className='menuabierto'" src="imagenes/abrirmenu.png" width="30" height="30" alt="abrir"/>
+			<img id="menu_cerrar" onClick="menu.className='',menu_cerrar.className='',navegador.className=''" src="imagenes/cerrarmenu.png" width="30" height="30" alt=""/>
+			<nav id="navegador">
+				<a href="index.html" title="info" target="_self">Home</a>
+				<a href="python_index.html" title="info" target="_self">Python</a>
+				<a href="mongo_index.html" title="info" target="_self">MongoDB</a>
+				<a href="pandas_index.html" title="info" target="_self">Pandas</a>
+				<a href="scikitlearn_index.html" title="info" target="_self">Scikitlearn</a>
+				<a href="matplotlib_index.html" title="info" target="_self">Tableau</a>
+				<a href="aboutme_index.html" title="info" target="_self">About me</a>
+			</nav>
+
+			<div id="body">
+			  <main>
+					<a href="python_index.html" title="info" target="_self"><h1>Python</h1></a>
+					<h2 id="software">Extracting Tweets</h2>
+				</main>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="MONGODB---BASIC-OPERATIONS-">MONGODB  -BASIC OPERATIONS-<a class="anchor-link" href="#MONGODB---BASIC-OPERATIONS-">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Login-to-the-MongoDB-Atlas">Login to the MongoDB Atlas<a class="anchor-link" href="#Login-to-the-MongoDB-Atlas">&#182;</a></h3>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">cloud</span><span class="o">.</span><span class="n">mongodb</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">v2</span><span class="o">/</span><span class="mi">5</span><span class="n">c45e4dfc56c98b1ecc199dc</span><span class="c1">#clusters</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#This script allows to extract all the Tweets with a given query published.</span>
+<span class="c1">#Tweeter only allows to extract tweets beyond 7 days</span>
+<span class="c1">#there is a limit of 180 queries per 15 minutes</span>
 
-<span class="mi">1</span><span class="p">)</span> <span class="n">Create</span> <span class="n">your</span> <span class="n">Atlas</span> <span class="n">Sandbox</span> <span class="n">cluster</span><span class="p">:</span>
+<span class="c1">#Tweepy must be installed in advanced</span>
+<span class="c1">#You need to modify your credentials (access token, accesss token secret, consumer key and consumer secret), the query and the starting and ending dates</span>
 
-<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">cloud</span><span class="o">.</span><span class="n">mongodb</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">links</span><span class="o">/</span><span class="n">registerForAtlas</span>
+<span class="c1">#author: sandra acebes (https://github.com/Sacebes)</span>
+<span class="c1">#last update : Jan 7,2019</span>
+</pre></div>
 
+</div>
+</div>
+</div>
 
-<span class="mi">2</span><span class="p">)</span> <span class="n">connect</span><span class="p">:</span>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="nb">reload</span><span class="p">(</span><span class="n">sys</span><span class="p">)</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">setdefaultencoding</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
 
-<span class="n">click</span> <span class="n">on</span> <span class="s2">&quot;connect to cluster&quot;</span>
-<span class="n">click</span> <span class="n">on</span> <span class="s2">&quot;connect to the mongo shell&quot;</span>
-<span class="n">copy</span> <span class="n">the</span> <span class="n">connection</span> <span class="n">string</span><span class="p">:</span> <span class="p">(</span><span class="k">for</span> <span class="n">example</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">tweepy</span>
+<span class="kn">from</span> <span class="nn">tweepy.streaming</span> <span class="kn">import</span> <span class="n">StreamListener</span>
+<span class="kn">from</span> <span class="nn">tweepy</span> <span class="kn">import</span> <span class="n">OAuthHandler</span>
+<span class="kn">from</span> <span class="nn">tweepy</span> <span class="kn">import</span> <span class="n">Stream</span>
 
-<span class="n">mongo</span> <span class="s2">&quot;mongodb+srv://cluster0xxxxx&quot;</span> <span class="o">--</span><span class="n">username</span> <span class="n">m001</span><span class="o">-</span><span class="n">student</span>
-<span class="n">password</span><span class="p">:</span> <span class="n">m001</span><span class="o">-</span><span class="n">mongodb</span><span class="o">-</span><span class="n">basics</span>
+<span class="c1">#Variables that contains the user credentials to access Twitter API (modify)</span>
+<span class="n">access_token</span> <span class="o">=</span> <span class="s2">&quot;XXXX&quot;</span>
+<span class="n">access_token_secret</span> <span class="o">=</span> <span class="s2">&quot;XXXX&quot;</span>
+<span class="n">consumer_key</span> <span class="o">=</span> <span class="s2">&quot;XXXX&quot;</span>
+<span class="n">consumer_secret</span> <span class="o">=</span> <span class="s2">&quot;XXXX&quot;</span>
 
+<span class="n">auth</span> <span class="o">=</span> <span class="n">OAuthHandler</span><span class="p">(</span><span class="n">consumer_key</span><span class="p">,</span> <span class="n">consumer_secret</span><span class="p">)</span>
+<span class="n">auth</span><span class="o">.</span><span class="n">set_access_token</span><span class="p">(</span><span class="n">access_token</span><span class="p">,</span> <span class="n">access_token_secret</span><span class="p">)</span>
+<span class="n">api</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">API</span><span class="p">(</span><span class="n">auth</span><span class="p">,</span> <span class="n">wait_on_rate_limit</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11876,277 +11876,22 @@ body {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">show</span> <span class="n">dbs</span>   <span class="c1">#show databases</span>
-<span class="n">use</span> <span class="n">video</span>  <span class="c1">#select database called video</span>
-<span class="n">db</span>         <span class="c1">#show current database</span>
-<span class="n">show</span> <span class="n">collections</span>
-</pre></div>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">csvFile</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./output_twitter.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
+<span class="n">csvWriter</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">csvFile</span><span class="p">)</span>
+<span class="n">fileout</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;./output_twitter.txt&quot;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
 
-</div>
-</div>
-</div>
+<span class="c1">#search parameters (modify)</span>
+<span class="n">query</span> <span class="o">=</span> <span class="s2">&quot;happy new year&quot;</span> <span class="c1">#Write here the keyword you want to search for.</span>
+<span class="n">language</span> <span class="o">=</span> <span class="s2">&quot;en&quot;</span> <span class="c1">#Modify this parameter if you are interested in other languages, for example, spanish = &quot;es&quot;</span>
+<span class="n">starting_date</span> <span class="o">=</span> <span class="s2">&quot;2018-12-31&quot;</span>  <span class="c1">#Write here the starting date aa-mm-dd</span>
+<span class="n">ending_date</span> <span class="o">=</span> <span class="s2">&quot;2019-01-02&quot;</span>    <span class="c1">#Write here the last day aa-mm-dd</span>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Basic-opearations:-CREATE">Basic opearations: CREATE<a class="anchor-link" href="#Basic-opearations:-CREATE">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#insert many</span>
-</pre></div>
+<span class="k">for</span> <span class="n">tweet</span> <span class="ow">in</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">Cursor</span><span class="p">(</span><span class="n">api</span><span class="o">.</span><span class="n">search</span><span class="p">,</span><span class="n">q</span><span class="o">=</span><span class="n">query</span><span class="p">,</span><span class="n">lang</span><span class="o">=</span><span class="n">language</span><span class="p">,</span><span class="n">tweet_mode</span><span class="o">=</span><span class="s2">&quot;extended&quot;</span><span class="p">,</span> <span class="n">since</span><span class="o">=</span><span class="n">starting_date</span><span class="p">,</span><span class="n">until</span><span class="o">=</span><span class="n">ending_date</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">fileout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet</span><span class="p">))</span>  <span class="c1">#print the whole tweet in json format</span>
+        <span class="n">csvWriter</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="n">tweet</span><span class="o">.</span><span class="n">created_at</span><span class="p">,</span> <span class="n">tweet</span><span class="o">.</span><span class="n">full_text</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)])</span> <span class="c1">#print only date and text</span>
 
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">insertMany</span><span class="p">([{</span><span class="s2">&quot;title&quot;</span><span class="p">:</span><span class="s2">&quot;saw&quot;</span><span class="p">,</span><span class="s2">&quot;year&quot;</span><span class="p">:</span><span class="mi">2018</span><span class="p">,</span><span class="s2">&quot;actors&quot;</span><span class="p">:</span><span class="s2">&quot;pepito&quot;</span><span class="p">},{</span><span class="s2">&quot;title&quot;</span><span class="p">:</span><span class="s2">&quot;saw2&quot;</span><span class="p">,</span> <span class="s2">&quot;year&quot;</span><span class="p">:</span><span class="mi">2019</span><span class="p">,</span> <span class="s2">&quot;actors&quot;</span><span class="p">:</span><span class="s2">&quot;pepito&quot;</span><span class="p">}])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Basic-operations-READ(find,-count)">Basic operations READ(find, count)<a class="anchor-link" href="#Basic-operations-READ(find,-count)">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#How many documents in video.movieDetails match the filter {genres: &quot;Comedy&quot;}?</span>
-<span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="s2">&quot;genres&quot;</span><span class="p">:</span><span class="s2">&quot;Comedy&quot;</span><span class="p">})</span>
-<span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">count</span><span class="p">({</span><span class="s2">&quot;genres&quot;</span><span class="p">:</span><span class="s2">&quot;Comedy&quot;</span><span class="p">})</span>  <span class="c1">#749</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Examples using other filters</span>
-<span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">count</span><span class="p">({</span><span class="s2">&quot;awards.wins&quot;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;awards.nominations&quot;</span><span class="p">:</span><span class="mi">2</span><span class="p">})</span>
-<span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="s2">&quot;awards.wins&quot;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;awards.nominations&quot;</span><span class="p">:</span><span class="mi">2</span><span class="p">})</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-<span class="c1">#12</span>
-<span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="s2">&quot;writers&quot;</span><span class="p">:[</span><span class="s2">&quot;Ethan Coen&quot;</span><span class="p">,</span> <span class="s2">&quot;Joel Coen&quot;</span><span class="p">]})</span><span class="o">.</span><span class="n">pretty</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Logic operators</span>
-<span class="err">$</span><span class="ow">and</span>
-<span class="n">Syntax</span><span class="p">:</span> <span class="p">{</span> <span class="err">$</span><span class="ow">and</span><span class="p">:</span> <span class="p">[</span> <span class="p">{</span> <span class="o">&lt;</span><span class="n">expression1</span><span class="o">&gt;</span> <span class="p">},</span> <span class="p">{</span> <span class="o">&lt;</span><span class="n">expression2</span><span class="o">&gt;</span> <span class="p">}</span> <span class="p">,</span> <span class="o">...</span> <span class="p">,</span> <span class="p">{</span> <span class="o">&lt;</span><span class="n">expressionN</span><span class="o">&gt;</span> <span class="p">}</span> <span class="p">]</span> <span class="p">}</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Comparison query operators (https://docs.mongodb.com/manual/reference/operator/query-comparison/)</span>
-<span class="n">conditions</span><span class="p">:</span> <span class="err">$</span><span class="n">ne</span> <span class="p">(</span><span class="ow">not</span> <span class="n">equal</span><span class="p">)</span> <span class="p">,</span> <span class="err">$</span><span class="n">exists</span> <span class="p">,</span> <span class="err">$</span><span class="n">eq</span> <span class="p">,</span> <span class="err">$</span><span class="n">gt</span><span class="p">,</span> <span class="err">$</span><span class="n">gte</span> <span class="p">,</span> <span class="err">$</span><span class="ow">in</span> <span class="p">(</span><span class="n">matches</span> <span class="nb">any</span> <span class="n">of</span> <span class="n">the</span> <span class="n">values</span><span class="p">)</span> <span class="err">$</span><span class="n">nin</span> <span class="p">(</span><span class="n">matches</span> <span class="n">none</span> <span class="n">of</span> <span class="n">the</span> <span class="n">values</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#How many documents have the poster section set to null? Ignore any documents that do not contain the rating key.</span>
-<span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="err">$</span><span class="ow">and</span><span class="p">:</span> <span class="p">[{</span><span class="n">poster</span><span class="p">:</span> <span class="n">null</span><span class="p">},</span> <span class="p">{</span><span class="n">rating</span><span class="p">:</span> <span class="p">{</span><span class="err">$</span><span class="n">exists</span><span class="p">:</span> <span class="n">true</span><span class="p">}}]})</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-<span class="c1">#answer:0</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="err">$</span><span class="ow">and</span><span class="p">:</span> <span class="p">[{</span><span class="n">poster</span><span class="p">:</span> <span class="n">null</span><span class="p">},</span> <span class="p">{</span><span class="n">director</span><span class="p">:</span> <span class="p">{</span><span class="err">$</span><span class="n">exists</span><span class="p">:</span> <span class="n">true</span><span class="p">}}]})</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-<span class="mi">1252</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">(</span> <span class="p">{</span> <span class="s2">&quot;director&quot;</span><span class="p">:</span> <span class="p">{</span> <span class="err">$</span><span class="n">ne</span><span class="p">:</span> <span class="s2">&quot;Joel Coen&quot;</span> <span class="p">}</span> <span class="p">})</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="n">actors</span><span class="p">:</span> <span class="p">{</span><span class="err">$</span><span class="ow">in</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Jack Nicholson&quot;</span><span class="p">,</span> <span class="s2">&quot;John Huston&quot;</span><span class="p">]}})</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="n">actors</span><span class="p">:</span> <span class="p">{</span><span class="err">$</span><span class="n">nin</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Jack Nicholson&quot;</span><span class="p">,</span> <span class="s2">&quot;John Huston&quot;</span><span class="p">]},</span><span class="n">year</span><span class="p">:{</span><span class="err">$</span><span class="n">gt</span><span class="p">:</span><span class="mi">2000</span><span class="p">}})</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="s2">&quot;year&quot;</span><span class="p">:{</span><span class="err">$</span><span class="n">gte</span><span class="p">:</span><span class="mi">2018</span><span class="p">}})</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Basic-operations-UPDATE----https://docs.mongodb.com/manual/reference/method/db.collection.update/">Basic operations UPDATE    <a href="https://docs.mongodb.com/manual/reference/method/db.collection.update/">https://docs.mongodb.com/manual/reference/method/db.collection.update/</a><a class="anchor-link" href="#Basic-operations-UPDATE----https://docs.mongodb.com/manual/reference/method/db.collection.update/">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#db.collection.update(query, update, options)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Update operators</span>
-<span class="c1">#https://docs.mongodb.com/manual/reference/operator/update/</span>
-<span class="err">$</span><span class="n">inc</span> <span class="p">(</span><span class="n">increments</span><span class="p">),</span> <span class="err">$</span><span class="nb">set</span> <span class="p">(</span><span class="n">replaces</span><span class="p">),</span> <span class="err">$</span><span class="nb">min</span> <span class="p">(</span><span class="n">updates</span> <span class="n">the</span> <span class="n">field</span> <span class="k">if</span> <span class="n">the</span> <span class="n">specified</span> <span class="n">value</span> <span class="ow">is</span> <span class="n">less</span> <span class="n">than</span> <span class="n">the</span> <span class="n">existing</span> <span class="n">field</span> <span class="n">value</span><span class="o">.</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;title&#39;</span><span class="p">:</span><span class="s1">&#39;saw2&#39;</span><span class="p">},{</span><span class="err">$</span><span class="nb">set</span><span class="p">:{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span><span class="s1">&#39;saw_2&#39;</span><span class="p">}})</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Basic-operations-DELETE">Basic operations DELETE<a class="anchor-link" href="#Basic-operations-DELETE">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">collection</span><span class="o">.</span><span class="n">deleteMany</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">movieDetails</span><span class="o">.</span><span class="n">deleteMany</span><span class="p">({</span><span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;saw_2&quot;</span><span class="p">})</span>
+<span class="n">csvFile</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="n">fileout</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12157,22 +11902,15 @@ body {
     </div>
   </div>
 
-</main>
-
-</div>
-</div>
-
-
 <div id="footer">
-<footer>
-<a href="privacy.html" title="Privacy" target="_self">Privacy-terms of use. Created by Sandra Acebes Serrano. HTML and CSS Edited using Atom</a> </footer>
+  <footer>
+
+  <a href="privacy.html" title="Privacy" target="_self">Privacy-terms of use. Created by Sandra Acebes Serrano. HTML and CSS Edited using Atom
+  </a> </footer>
 </div>
 
 </div>
+
 
 </body>
-
-
-
-
 </html>
