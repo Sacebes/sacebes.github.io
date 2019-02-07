@@ -82,6 +82,7 @@ transform: scale(1.5);
 
 
 /*NAVEGADOR*/
+
 nav {
   display:flex;
   flex-direction: row;
@@ -89,14 +90,16 @@ nav {
   background-color:darkgray;
 	background-color:#c8d4ce;
   text-align:center;
+	font-weight:bold;
   padding-left: 3em;
-  padding-right:3em;
+  padding-right:1em;
   height:3em;
   align-items: center;
 	font-size: 1.1em;
 
-
 }
+
+
 nav a {
 	color:white;
 	color:black;
@@ -293,6 +296,7 @@ a {
 @media(max-width:800px) {
 	#body {
 		padding-top:3em;
+		width:100%;
 	}
 
 	#box2 img {
@@ -477,9 +481,13 @@ h2 {
 			direction:column;
 			justify-content: space-around;
 			z-index:10;
-			background-color:rgba(200,212,206,0.75);
+
+			background-color:rgba(200,212,206,0.85);
+
+
 			/*c8d4ce*/
 			text-align:center;
+
 
 			/*transform: translateX(100%);*/
 			}
@@ -491,6 +499,89 @@ a {
 		color:black;
 }
 
-/* y si al pasar por encima sale el texto
+#bio {
+	display:block;
+	/*flex-direction: row;*/
+	min-height:100vh;
 }
-*/
+
+#photo {
+
+	margin-right:0px;
+	margin:0px;
+	padding:0px;
+	padding-top:5em;
+	margin-left:2em;
+	width:100%;
+	margin:auto;
+	font-size:0.8em;
+}
+
+#photo p {
+	padding:0px;
+	margin:0px;
+	padding-left:1.2em;
+}
+.photo_sas {
+	width:25%;
+}
+
+#cv img{
+
+		width:120%;
+		padding:0px;
+		box-sizing:border-box;
+}
+
+#text_right {
+	padding-top:0em;
+	padding-right:1.2em;
+	padding-left:1.2em;
+	margin:auto;
+	width:100%;
+	display:block;
+	font-size:0.8em;
+	box-sizing:border-box;
+}
+
+#text_right2 {
+	padding-top:0em;
+	padding-right:0em;
+	padding-left:0.75em;
+	margin:auto;
+	width:100%;
+	margin:auto;
+	display:block;
+	font-size:0.8em;
+	box-sizing:border-box;
+}
+
+
+#intro, #intro2 {
+	width:100%;
+	display:block;
+	margin:auto;
+}
+
+#intro2 p {
+	width:100%;
+	display:block;
+	margin:auto;
+}
+
+#text_right h1 {
+	padding:0em;
+}
+
+#text_right p {
+	padding:0em;
+
+}
+
+#footer {
+
+	font-size:0.7em;
+	width:80%;
+	margin:0px;
+
+}
