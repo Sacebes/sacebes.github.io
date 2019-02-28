@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>DataAnalysis_Pandas.txt</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Us_States_Data</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11766,126 +11766,67 @@ div#notebook {
         }
     });
     </script>
-    <meta charset="utf-8">
     <title>Sandra Acebes </title>
     <meta name="description" content="Github porfolio by Sandra Acebes containing data sicence material, including pandas, scikitlearn, machine learning, big data">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <link href="../css/index.css" rel="stylesheet" type="text/css">
+    </head>
 
+    <body>
+    	<div id="all"> <!-- "all" (1)top_and_body and  (2) footer. To keep the footer down -->
+    		<div id="top_and_body">
+    			<header>
+    			<div id="top">
+    					<div id="title">
+    							<!-- <h2> Sandra Acebes </h2> -->
+    							<!--<img src="Imagenes/logo-ceoe-gu.png" width="194" height="60" alt="logo mi empresa"/> -->
+    					</div>
+    					<div id="box">
+    						<a href="../index.html" title="info" target="_self"><img src="../Imagenes/logo2.png" alt="" title=""/></a>
+    					</div>
+    						<!-- <img src="Imagenes/box.png" alt="" title=""/> -->
+    					<div id="box2"><img src="../Imagenes/box4.png" alt="" title=""/></div>
 
+    					<div id="social">
+    						<a href="https://www.linkedin.com/in/sandra-acebes" title="linkedin" target="new"><img src="../Imagenes/linkedin2.png" alt="linkedin sandra-acebes" title="sandra-acebes"/></a>
+    						<a href="mailto:sandra.acebes@gmail.com" target="new"><img src="../Imagenes/gmail2.png" alt="mail" title="send mail"/></a>
+    						<a href="https://scholar.google.es/citations?user=mrA8_LIAAAAJ&hl=es&oi=ao" title="Google" target="new"><img src="../Imagenes/google2.png" alt="google" title="google scholar"/></a>
+    						<a href="https://github.com/Sacebes" title="Github" target="new"><img src="../Imagenes/github2.png" alt="github" title="github"/></a>
+    					</div>
+    			</div>
+    		  </header>
 
-    <!-- End of mathjax configuration --></head>
-<body>
-  <div id="all"> <!-- "all" (1)top_and_body and  (2) footer. To keep the footer down -->
-		<div id="top_and_body">
-			<header>
-			<div id="top">
-					<div id="title">
-							<!-- <h2> Sandra Acebes </h2> -->
-							<!--<img src="Imagenes/logo-ceoe-gu.png" width="194" height="60" alt="logo mi empresa"/> -->
-					</div>
-					<div id="box">
-						<a href="../index.html" title="info" target="_self"><img src="../Imagenes/logo2.png" alt="" title=""/></a>
-					</div>
-						<!-- <img src="Imagenes/box.png" alt="" title=""/> -->
-					<div id="box2"><img src="../Imagenes/box4.png" alt="" title=""/></div>
+    			<img id="menu" onClick="menu.className='menuabierto',menu_cerrar.className='menuabierto',navegador.className='menuabierto'" src="../Imagenes/abrirmenu.png" width="30" height="30" alt="abrir"/>
+    			<img id="menu_cerrar" onClick="menu.className='',menu_cerrar.className='',navegador.className=''" src="../Imagenes/cerrarmenu.png" width="30" height="30" alt=""/>
+    			<nav id="navegador">
+    				<a href="../index.html" title="info" target="_self">Home</a>
+    				<a href="../python_index.html" title="info" target="_self">Python</a>
+    				<a href="../mongo_index.html" title="info" target="_self">MongoDB</a>
+    				<a href="../pandas_index.html" title="info" target="_self">Pandas</a>
+    				<a href="../scikitlearn_index.html" title="info" target="_self">Scikitlearn</a>
+    				<a href="../matplotlib_index.html" title="info" target="_self">Tableau</a>
+    				<a href="../aboutme_index.html" title="info" target="_self">About me</a>
+    			</nav>
 
-					<div id="social">
-						<a href="https://www.linkedin.com/in/sandra-acebes" title="linkedin" target="new"><img src="../Imagenes/linkedin2.png" alt="linkedin sandra-acebes" title="sandra-acebes"/></a>
-						<a href="mailto:sandra.acebes@gmail.com" target="new"><img src="../Imagenes/gmail2.png" alt="mail" title="send mail"/></a>
-						<a href="https://scholar.google.es/citations?user=mrA8_LIAAAAJ&hl=es&oi=ao" title="Google" target="new"><img src="../Imagenes/google2.png" alt="google" title="google scholar"/></a>
-						<a href="https://github.com/Sacebes" title="Github" target="new"><img src="../Imagenes/github2.png" alt="github" title="github"/></a>
-					</div>
-			</div>
-		  </header>
-
-			<img id="menu" onClick="menu.className='menuabierto',menu_cerrar.className='menuabierto',navegador.className='menuabierto'" src="../Imagenes/abrirmenu.png" width="30" height="30" alt="abrir"/>
-			<img id="menu_cerrar" onClick="menu.className='',menu_cerrar.className='',navegador.className=''" src="../Imagenes/cerrarmenu.png" width="30" height="30" alt=""/>
-			<nav id="navegador">
-				<a href="../index.html" title="info" target="_self">Home</a>
-				<a href="../python_index.html" title="info" target="_self">Python</a>
-				<a href="../MongoDB.html" title="info" target="_self">MongoDB</a>
-				<a href="../pandas_index.html" title="info" target="_self">Pandas</a>
-				<a href="../scikitlearn_index.html" title="info" target="_self">Scikitlearn</a>
-				<a href="../matplotlib_index.html" title="info" target="_self">Tableau</a>
-				<a href="../aboutme_index.html" title="info" target="_self">About me</a>
-			</nav>
-
-			<div id="body">
-			  <main>
-					<a href="../pandas_index.html" title="info" target="_self"><h1>Pandas</h1></a>
-					<h2 id="software"> Data Analysis using Pandas</h2>
-
-				</main>
+    			<div id="body">
+    			  <main>
+    					<a href="../pandas_index.html" title="info" target="_self"><h1>Pandas</h1></a>
+    					<h2 id="software"> Data Analysis using Pandas II (Plot representation with Matplotlib)</h2>
+    <!-- End of mathjax configuration -->
 
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="DATA-ANALYSIS-USING-PANDAS">DATA ANALYSIS USING PANDAS<a class="anchor-link" href="#DATA-ANALYSIS-USING-PANDAS">&#182;</a></h1>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># DATA ANALYSIS USING PANDAS </span>
-<span class="c1"># Analysis of the protein database (Result_protein.txt)</span>
-<span class="c1"># that has been previously preprocessed using Python </span>
-<span class="c1"># (Orginal data from the protein data bank: https://www.rcsb.org/)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Pandas is built on Numpy. </span>
-<span class="c1"># The main difference between Numpy and Pandas are the indexes and labels</span>
-<span class="c1">#Documentation:  https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># READ</span>
-<span class="c1"># There are several readers and writers available (CSV; JSON; html ; SAS; SQL; ...)</span>
-<span class="c1"># Readers: read_csv ; read_sas ; ...etc.</span>
-<span class="c1"># Writers: to_csv; to_sql ; to_sas ; ...etc</span>
-<span class="c1"># Specify the absence of header:  pd.read_csv(file, header=None)</span>
-<span class="c1"># Generate a header: pd.read_csv(file, names=[n1,n2,n3])</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## Advanced analysis using pandas</span>
+<span class="c1"># Example: US States Data</span>
+<span class="c1"># Rank US states and territories by their 2010 population density</span>
+<span class="c1"># source: Python DataScience Handbook (by Jake VanderPlas)</span>
 </pre></div>
 
 </div>
@@ -11898,7 +11839,10 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span> <span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Result_protein.txt&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot; &quot;</span> <span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./state-abbrevs.csv&#39;</span><span class="p">)</span>
+<span class="n">df2</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./state-population.csv&#39;</span><span class="p">)</span>
+<span class="n">df3</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./state-areas.csv&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11906,20 +11850,13 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Explore-de-data:-head,-info,-columns,-count,-shape,-describe,-unique">Explore de data: head, info, columns, count, shape, describe, unique<a class="anchor-link" href="#Explore-de-data:-head,-info,-columns,-count,-shape,-describe,-unique">&#182;</a></h3>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df1</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">df1</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -11932,7 +11869,24 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[4]:</div>
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 51 entries, 0 to 50
+Data columns (total 2 columns):
+state           51 non-null object
+abbreviation    51 non-null object
+dtypes: object(2)
+memory usage: 888.0+ bytes
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -11955,77 +11909,35 @@ div#notebook {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
+      <th>state</th>
+      <th>abbreviation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>101m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>29</td>
-      <td>0.174699</td>
-      <td>22</td>
-      <td>0.132530</td>
-      <td>35</td>
-      <td>0.210843</td>
-      <td>20</td>
-      <td>0.120482</td>
+      <td>Alabama</td>
+      <td>AL</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>102l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>165</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>46</td>
-      <td>0.277108</td>
-      <td>15</td>
-      <td>0.090361</td>
-      <td>27</td>
-      <td>0.162651</td>
-      <td>18</td>
-      <td>0.108434</td>
+      <td>Alaska</td>
+      <td>AK</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>102m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
+      <td>Arizona</td>
+      <td>AZ</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Arkansas</td>
+      <td>AR</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>California</td>
+      <td>CA</td>
     </tr>
   </tbody>
 </table>
@@ -12040,10 +11952,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df2</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">df2</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12061,27 +11974,90 @@ div#notebook {
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-RangeIndex: 431023 entries, 0 to 431022
-Data columns (total 15 columns):
-pdbid         431023 non-null object
-chain         431023 non-null object
-type          431023 non-null object
-length        431023 non-null int64
-family        430997 non-null object
-nhydropho     431023 non-null int64
-%nhydropho    431023 non-null float64
-npolar        431023 non-null int64
-%npolar       431023 non-null float64
-naroma        431023 non-null int64
-%naroma       431023 non-null float64
-nposich       431023 non-null int64
-%nposich      431023 non-null float64
-nnegach       431023 non-null int64
-%nnegach      431023 non-null float64
-dtypes: float64(5), int64(6), object(4)
-memory usage: 49.3+ MB
+RangeIndex: 2544 entries, 0 to 2543
+Data columns (total 4 columns):
+state/region    2544 non-null object
+ages            2544 non-null object
+year            2544 non-null int64
+population      2524 non-null float64
+dtypes: float64(1), int64(1), object(2)
+memory usage: 79.6+ KB
 </pre>
 </div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[11]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state/region</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2012</td>
+      <td>1117489.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AL</td>
+      <td>total</td>
+      <td>2012</td>
+      <td>4817528.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2010</td>
+      <td>1130966.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AL</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>4785570.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2011</td>
+      <td>1125763.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
 </div>
 
 </div>
@@ -12090,10 +12066,11 @@ memory usage: 49.3+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df3</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">df3</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12106,15 +12083,567 @@ memory usage: 49.3+ MB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 52 entries, 0 to 51
+Data columns (total 2 columns):
+state            52 non-null object
+area (sq. mi)    52 non-null int64
+dtypes: int64(1), object(1)
+memory usage: 904.0+ bytes
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[14]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state</th>
+      <th>area (sq. mi)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alabama</td>
+      <td>52423</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alaska</td>
+      <td>656425</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Arizona</td>
+      <td>114006</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Arkansas</td>
+      <td>53182</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>California</td>
+      <td>163707</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#check null data in dataframes. df.info() There is no missing data. One has 52, the other</span>
+<span class="c1">#51 entries, the second dataframe contains 2544 entries; </span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Combining data : pd.merge(df1,df2,options)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># merge options : right(keys from right dataframe), left, outer(all keys), inner(intersection)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span> <span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df1</span><span class="p">,</span><span class="n">df3</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;outer&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df1</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="n">df2</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[71]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state/region</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2012</td>
+      <td>1117489.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AL</td>
+      <td>total</td>
+      <td>2012</td>
+      <td>4817528.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2010</td>
+      <td>1130966.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AL</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>4785570.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2011</td>
+      <td>1125763.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df2</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[76]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state/region</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2012</td>
+      <td>1117489.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AL</td>
+      <td>total</td>
+      <td>2012</td>
+      <td>4817528.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2010</td>
+      <td>1130966.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AL</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>4785570.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>AL</td>
+      <td>under18</td>
+      <td>2011</td>
+      <td>1125763.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[77]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alaska</td>
+      <td>AK</td>
+      <td>656425</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Arizona</td>
+      <td>AZ</td>
+      <td>114006</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Arkansas</td>
+      <td>AR</td>
+      <td>53182</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>California</td>
+      <td>CA</td>
+      <td>163707</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Merge lines with different size (dataframe1,dataframe2, column1, column2, options)</span>
+<span class="c1">#options: right, left, inner , outer</span>
+<span class="n">dft</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">df2</span><span class="p">,</span><span class="n">left_on</span><span class="o">=</span><span class="s1">&#39;abbreviation&#39;</span><span class="p">,</span><span class="n">right_on</span><span class="o">=</span><span class="s1">&#39;state/region&#39;</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;outer&#39;</span><span class="p">)</span>
+
+<span class="c1">#How to delete a column ---- df.drop(column,1)  axis : {0 or ‘index’, 1 or ‘columns’}                                </span>
+<span class="n">dft</span><span class="o">=</span><span class="n">dft</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;state/region&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>      <span class="c1">#drop the duplicated column</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">dft</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[88]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>under18</td>
+      <td>2012</td>
+      <td>1117489.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>total</td>
+      <td>2012</td>
+      <td>4817528.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>under18</td>
+      <td>2010</td>
+      <td>1130966.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>4785570.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>under18</td>
+      <td>2011</td>
+      <td>1125763.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">dft</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[101]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Index([u&#39;pdbid&#39;, u&#39;chain&#39;, u&#39;type&#39;, u&#39;length&#39;, u&#39;family&#39;, u&#39;nhydropho&#39;,
-       u&#39;%nhydropho&#39;, u&#39;npolar&#39;, u&#39;%npolar&#39;, u&#39;naroma&#39;, u&#39;%naroma&#39;, u&#39;nposich&#39;,
-       u&#39;%nposich&#39;, u&#39;nnegach&#39;, u&#39;%nnegach&#39;],
+<pre>Index([u&#39;state&#39;, u&#39;abbreviation&#39;, u&#39;area (sq. mi)&#39;, u&#39;year&#39;, u&#39;ages&#39;,
+       u&#39;population&#39;],
       dtype=&#39;object&#39;)</pre>
 </div>
 
@@ -12126,10 +12655,11 @@ memory usage: 49.3+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#df now has one missing data! print null columns</span>
+<span class="n">dft</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12142,28 +12672,19 @@ memory usage: 49.3+ MB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[11]:</div>
+<div class="prompt output_prompt">Out[106]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>pdbid         431023
-chain         431023
-type          431023
-length        431023
-family        430997
-nhydropho     431023
-%nhydropho    431023
-npolar        431023
-%npolar       431023
-naroma        431023
-%naroma       431023
-nposich       431023
-%nposich      431023
-nnegach       431023
-%nnegach      431023
-dtype: int64</pre>
+<pre>state             True
+abbreviation      True
+area (sq. mi)     True
+ages             False
+year             False
+population        True
+dtype: bool</pre>
 </div>
 
 </div>
@@ -12174,10 +12695,11 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">null_datat</span> <span class="o">=</span> <span class="n">dft</span><span class="p">[</span><span class="n">dft</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>   <span class="c1">#print null rows</span>
+<span class="n">null_datat</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12190,17 +12712,384 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[22]:</div>
+<div class="prompt output_prompt">Out[108]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2448</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>under18</td>
+      <td>1990</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2449</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>1990</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2450</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>1991</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2451</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>under18</td>
+      <td>1991</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2452</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>1993</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;abbreviation&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[109]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(431023, 15)</pre>
+<pre>array([&#39;AL&#39;, &#39;AK&#39;, &#39;AZ&#39;, &#39;AR&#39;, &#39;CA&#39;, &#39;CO&#39;, &#39;CT&#39;, &#39;DE&#39;, &#39;DC&#39;, &#39;FL&#39;, &#39;GA&#39;,
+       &#39;HI&#39;, &#39;ID&#39;, &#39;IL&#39;, &#39;IN&#39;, &#39;IA&#39;, &#39;KS&#39;, &#39;KY&#39;, &#39;LA&#39;, &#39;ME&#39;, &#39;MT&#39;, &#39;NE&#39;,
+       &#39;NV&#39;, &#39;NH&#39;, &#39;NJ&#39;, &#39;NM&#39;, &#39;NY&#39;, &#39;NC&#39;, &#39;ND&#39;, &#39;OH&#39;, &#39;OK&#39;, &#39;OR&#39;, &#39;MD&#39;,
+       &#39;MA&#39;, &#39;MI&#39;, &#39;MN&#39;, &#39;MS&#39;, &#39;MO&#39;, &#39;PA&#39;, &#39;RI&#39;, &#39;SC&#39;, &#39;SD&#39;, &#39;TN&#39;, &#39;TX&#39;,
+       &#39;UT&#39;, &#39;VT&#39;, &#39;VA&#39;, &#39;WA&#39;, &#39;WV&#39;, &#39;WI&#39;, &#39;WY&#39;, &#39;PR&#39;], dtype=object)</pre>
 </div>
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;Puerto Rico&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;abbreviation&#39;</span><span class="o">==</span><span class="s1">&#39;PR&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#There is no abbreviation for Puerto Rico: add missing valuen to df</span>
+
+<span class="c1"># Dealing with missing data: dropna() and fillna()</span>
+<span class="c1">#df_new=df.loc[df[&#39;state&#39;]==&#39;Puerto Rico&#39;].fillna(&#39;abbreviation&#39;==&#39;PR&#39;)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">dft</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">dft</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;Puerto Rico&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;abbreviation&#39;</span><span class="o">==</span><span class="s1">&#39;PR&#39;</span><span class="p">)</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">dft</span><span class="p">[</span><span class="n">dft</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[113]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>68</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[171]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">null_data2</span> <span class="o">=</span> <span class="n">dft</span><span class="p">[</span><span class="n">dft</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>   <span class="c1">#print null rows</span>
+<span class="n">null_data2</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="n">null_data2</span><span class="o">.</span><span class="n">abbreviation</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[171]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([&#39;PR&#39;, nan], dtype=object)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[165]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">dfnew</span><span class="o">=</span><span class="n">dft</span><span class="p">[</span><span class="n">dft</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;Puerto Rico&#39;</span><span class="p">]</span>  <span class="c1">#new dataframe only with puerto rico</span>
+<span class="n">dfnew</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+
+<span class="n">null_data</span> <span class="o">=</span> <span class="n">dfnew</span><span class="p">[</span><span class="n">dfnew</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>   <span class="c1">#print null rows</span>
+<span class="n">null_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[165]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2448</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>under18</td>
+      <td>1990</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2449</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>1990</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2450</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>1991</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2451</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>under18</td>
+      <td>1991</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2452</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>1993</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[168]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">null_data</span><span class="o">.</span><span class="n">population</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
+<span class="n">null_data</span><span class="o">.</span><span class="n">year</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>  <span class="c1">#there is no data for PR from 1990 to 1999</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[168]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([1990, 1991, 1993, 1992, 1994, 1995, 1996, 1998, 1997, 1999])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Identify duplicate info </span>
+<span class="c1"># DataFrame.duplicated(subset=None, keep=&#39;first&#39;)[source]</span>
+</pre></div>
+
+</div>
 </div>
 </div>
 
@@ -12210,7 +13099,7 @@ dtype: int64</pre>
 <div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;abbreviation&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">keep</span><span class="o">=</span><span class="s1">&#39;first&#39;</span><span class="p">)]</span>
 </pre></div>
 
 </div>
@@ -12246,407 +13135,15 @@ dtype: int64</pre>
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>length</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>count</th>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-      <td>431023.000000</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>257.625333</td>
-      <td>94.387933</td>
-      <td>0.353195</td>
-      <td>73.698833</td>
-      <td>0.278891</td>
-      <td>29.039411</td>
-      <td>0.107032</td>
-      <td>35.994399</td>
-      <td>0.144640</td>
-      <td>31.361663</td>
-      <td>0.116242</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>200.582322</td>
-      <td>75.572272</td>
-      <td>0.063410</td>
-      <td>58.858810</td>
-      <td>0.066262</td>
-      <td>24.819059</td>
-      <td>0.036343</td>
-      <td>27.248176</td>
-      <td>0.054907</td>
-      <td>26.623412</td>
-      <td>0.040079</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>2.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>129.000000</td>
-      <td>45.000000</td>
-      <td>0.317757</td>
-      <td>35.000000</td>
-      <td>0.239171</td>
-      <td>13.000000</td>
-      <td>0.084848</td>
-      <td>20.000000</td>
-      <td>0.115917</td>
-      <td>14.000000</td>
-      <td>0.096591</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>219.000000</td>
-      <td>77.000000</td>
-      <td>0.352518</td>
-      <td>62.000000</td>
-      <td>0.272289</td>
-      <td>23.000000</td>
-      <td>0.107143</td>
-      <td>30.000000</td>
-      <td>0.136574</td>
-      <td>26.000000</td>
-      <td>0.116279</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>333.000000</td>
-      <td>125.000000</td>
-      <td>0.388679</td>
-      <td>96.000000</td>
-      <td>0.307692</td>
-      <td>39.000000</td>
-      <td>0.128440</td>
-      <td>46.000000</td>
-      <td>0.160000</td>
-      <td>41.000000</td>
-      <td>0.135762</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>5037.000000</td>
-      <td>1887.000000</td>
-      <td>1.000000</td>
-      <td>1381.000000</td>
-      <td>1.000000</td>
-      <td>605.000000</td>
-      <td>1.000000</td>
-      <td>713.000000</td>
-      <td>1.000000</td>
-      <td>797.000000</td>
-      <td>1.000000</td>
-    </tr>
   </tbody>
 </table>
 </div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;family&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>  <span class="c1">#Get unique values of a column</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[19]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;MYOGLOBIN&#39;, &#39;T4_LYSOZYME&#39;, &#39;GLUTATHIONE_S-TRANSFERASE_P1-1&#39;, ...,
-       &#39;FOXO3a_peptide&#39;, &#39;GLY_ALA_TRP_PEPTIDE&#39;, &#39;N-ACETYLHIRUDIN&#39;],
-      dtype=object)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;family&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[20]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>59018</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Filter-specific-values:-str.contains,-loc,-iloc,-isin">Filter specific values: str.contains, loc, iloc, isin<a class="anchor-link" href="#Filter-specific-values:-str.contains,-loc,-iloc,-isin">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Select a column</span>
-<span class="c1">#df[&#39;type&#39;]  # Select &#39;type&#39; column</span>
-<span class="c1">#df[0:3]     # Select rows from 0 to 3</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> <span class="c1">#Select &#39;type&#39; column, rows from 0 to 3</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[24]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>0    protein
-1    protein
-2    protein
-Name: type, dtype: object</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s1">&#39;pro&#39;</span><span class="p">)][</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[46]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>101m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>29</td>
-      <td>0.174699</td>
-      <td>22</td>
-      <td>0.132530</td>
-      <td>35</td>
-      <td>0.210843</td>
-      <td>20</td>
-      <td>0.120482</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>102l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>165</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>46</td>
-      <td>0.277108</td>
-      <td>15</td>
-      <td>0.090361</td>
-      <td>27</td>
-      <td>0.162651</td>
-      <td>18</td>
-      <td>0.108434</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>102m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s1">&#39;pro&#39;</span><span class="p">)])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[4]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>431023</pre>
 </div>
 
 </div>
@@ -12660,11 +13157,7 @@ Name: type, dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Selection by label</span>
-<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[]</span>
-
-<span class="c1">#Selection by position</span>
-<span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[]</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#Exemple: rank US states by their 2010 population density</span>
 </pre></div>
 
 </div>
@@ -12674,1055 +13167,16 @@ Name: type, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[180]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#df.loc[df[&#39;column_name&#39;] == some_value]</span>
-<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;pdbid&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;1dy3&#39;</span><span class="p">]</span>
-</pre></div>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">data_2010</span><span class="o">=</span><span class="n">dft</span><span class="p">[</span><span class="n">dft</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">2010</span><span class="p">]</span>
+<span class="n">data_2010</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">null_2010</span><span class="o">=</span><span class="n">data_2010</span><span class="p">[</span><span class="n">data_2010</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>
 
-</div>
-</div>
-</div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[14]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>8040</th>
-      <td>1dy3</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>158</td>
-      <td>NaN</td>
-      <td>68</td>
-      <td>0.419753</td>
-      <td>38</td>
-      <td>0.234568</td>
-      <td>17</td>
-      <td>0.104938</td>
-      <td>19</td>
-      <td>0.117284</td>
-      <td>20</td>
-      <td>0.123457</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],:]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[29]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>102l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>165</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>46</td>
-      <td>0.277108</td>
-      <td>15</td>
-      <td>0.090361</td>
-      <td>27</td>
-      <td>0.162651</td>
-      <td>18</td>
-      <td>0.108434</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>102m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>103l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>167</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.357143</td>
-      <td>47</td>
-      <td>0.279762</td>
-      <td>15</td>
-      <td>0.089286</td>
-      <td>27</td>
-      <td>0.160714</td>
-      <td>19</td>
-      <td>0.113095</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>103m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Boolean Indexing</span>
-<span class="c1">#df[df.%npolar &gt; 0.4] Invalid syntax:</span>
-<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">8</span><span class="p">]</span><span class="o">&gt;</span><span class="mf">0.40</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>   <span class="c1">#[0:3] limits the amount of output to display</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[49]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>34</th>
-      <td>11ba</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>124</td>
-      <td>PROTEIN_(RIBONUCLEASE,_SEMINAL)</td>
-      <td>33</td>
-      <td>0.257812</td>
-      <td>53</td>
-      <td>0.414062</td>
-      <td>11</td>
-      <td>0.085938</td>
-      <td>22</td>
-      <td>0.171875</td>
-      <td>9</td>
-      <td>0.070312</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>11ba</td>
-      <td>B</td>
-      <td>protein</td>
-      <td>124</td>
-      <td>PROTEIN_(RIBONUCLEASE,_SEMINAL)</td>
-      <td>33</td>
-      <td>0.257812</td>
-      <td>53</td>
-      <td>0.414062</td>
-      <td>11</td>
-      <td>0.085938</td>
-      <td>22</td>
-      <td>0.171875</td>
-      <td>9</td>
-      <td>0.070312</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>11bg</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>124</td>
-      <td>PROTEIN_(BOVINE_SEMINAL_RIBONUCLEASE)</td>
-      <td>33</td>
-      <td>0.257812</td>
-      <td>53</td>
-      <td>0.414062</td>
-      <td>11</td>
-      <td>0.085938</td>
-      <td>22</td>
-      <td>0.171875</td>
-      <td>9</td>
-      <td>0.070312</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#[df.npolar&gt;40  #returns a true/false list</span>
-<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">npolar</span><span class="o">&gt;</span><span class="mi">40</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[48]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>102l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>165</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>46</td>
-      <td>0.277108</td>
-      <td>15</td>
-      <td>0.090361</td>
-      <td>27</td>
-      <td>0.162651</td>
-      <td>18</td>
-      <td>0.108434</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>103l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>167</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.357143</td>
-      <td>47</td>
-      <td>0.279762</td>
-      <td>15</td>
-      <td>0.089286</td>
-      <td>27</td>
-      <td>0.160714</td>
-      <td>19</td>
-      <td>0.113095</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>104l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>166</td>
-      <td>T4_LYSOZYME</td>
-      <td>61</td>
-      <td>0.365269</td>
-      <td>46</td>
-      <td>0.275449</td>
-      <td>15</td>
-      <td>0.089820</td>
-      <td>27</td>
-      <td>0.161677</td>
-      <td>18</td>
-      <td>0.107784</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;chain&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">])][</span><span class="mi">0</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
-<span class="c1">#df.isin({&#39;chain&#39;: &quot;A&quot;, &#39;type&#39;: &quot;protein&quot;})</span>
-<span class="c1">#df2[df2[&#39;E&#39;].isin([&#39;two&#39;, &#39;four&#39;])]</span>
-
-<span class="c1">#countries = [&quot;T4_LYSOZIME&quot;,&quot;MYOGLOBIN&quot;]</span>
-<span class="c1">#df.family.isin(countries)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[60]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>101m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>29</td>
-      <td>0.174699</td>
-      <td>22</td>
-      <td>0.132530</td>
-      <td>35</td>
-      <td>0.210843</td>
-      <td>20</td>
-      <td>0.120482</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>102l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>165</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>46</td>
-      <td>0.277108</td>
-      <td>15</td>
-      <td>0.090361</td>
-      <td>27</td>
-      <td>0.162651</td>
-      <td>18</td>
-      <td>0.108434</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>102m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>103l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>167</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.357143</td>
-      <td>47</td>
-      <td>0.279762</td>
-      <td>15</td>
-      <td>0.089286</td>
-      <td>27</td>
-      <td>0.160714</td>
-      <td>19</td>
-      <td>0.113095</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>103m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>104l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>166</td>
-      <td>T4_LYSOZYME</td>
-      <td>61</td>
-      <td>0.365269</td>
-      <td>46</td>
-      <td>0.275449</td>
-      <td>15</td>
-      <td>0.089820</td>
-      <td>27</td>
-      <td>0.161677</td>
-      <td>18</td>
-      <td>0.107784</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">familyname</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;T4_LYSOZYME&quot;</span><span class="p">,</span><span class="s2">&quot;MYOGLOBIN&quot;</span><span class="p">]</span>
-<span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">family</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">familyname</span><span class="p">)])</span>
-<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">family</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">familyname</span><span class="p">)][</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[91]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>101m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>29</td>
-      <td>0.174699</td>
-      <td>22</td>
-      <td>0.132530</td>
-      <td>35</td>
-      <td>0.210843</td>
-      <td>20</td>
-      <td>0.120482</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>102l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>165</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.361446</td>
-      <td>46</td>
-      <td>0.277108</td>
-      <td>15</td>
-      <td>0.090361</td>
-      <td>27</td>
-      <td>0.162651</td>
-      <td>18</td>
-      <td>0.108434</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>102m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>103l</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>167</td>
-      <td>T4_LYSOZYME</td>
-      <td>60</td>
-      <td>0.357143</td>
-      <td>47</td>
-      <td>0.279762</td>
-      <td>15</td>
-      <td>0.089286</td>
-      <td>27</td>
-      <td>0.160714</td>
-      <td>19</td>
-      <td>0.113095</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>103m</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>154</td>
-      <td>MYOGLOBIN</td>
-      <td>60</td>
-      <td>0.363636</td>
-      <td>29</td>
-      <td>0.175758</td>
-      <td>22</td>
-      <td>0.133333</td>
-      <td>34</td>
-      <td>0.206061</td>
-      <td>20</td>
-      <td>0.121212</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#not in</span>
-
-<span class="n">familyname</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;T4_LYSOZYME&quot;</span><span class="p">,</span><span class="s2">&quot;MYOGLOBIN&quot;</span><span class="p">]</span>
-<span class="n">df</span><span class="p">[</span><span class="o">~</span><span class="n">df</span><span class="o">.</span><span class="n">family</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">familyname</span><span class="p">)][</span><span class="mi">0</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[92]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>16</th>
-      <td>10gs</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>209</td>
-      <td>GLUTATHIONE_S-TRANSFERASE_P1-1</td>
-      <td>81</td>
-      <td>0.383886</td>
-      <td>62</td>
-      <td>0.293839</td>
-      <td>23</td>
-      <td>0.109005</td>
-      <td>22</td>
-      <td>0.104265</td>
-      <td>23</td>
-      <td>0.109005</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>10gs</td>
-      <td>B</td>
-      <td>protein</td>
-      <td>209</td>
-      <td>GLUTATHIONE_S-TRANSFERASE_P1-1</td>
-      <td>81</td>
-      <td>0.383886</td>
-      <td>62</td>
-      <td>0.293839</td>
-      <td>23</td>
-      <td>0.109005</td>
-      <td>22</td>
-      <td>0.104265</td>
-      <td>23</td>
-      <td>0.109005</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>10mh</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>327</td>
-      <td>PROTEIN_(CYTOSINE-SPECIFIC_METHYLTRANSFERASE_H...</td>
-      <td>106</td>
-      <td>0.318318</td>
-      <td>100</td>
-      <td>0.300300</td>
-      <td>42</td>
-      <td>0.126126</td>
-      <td>46</td>
-      <td>0.138138</td>
-      <td>39</td>
-      <td>0.117117</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>117e</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>286</td>
-      <td>PROTEIN_(INORGANIC_PYROPHOSPHATASE)</td>
-      <td>102</td>
-      <td>0.349315</td>
-      <td>72</td>
-      <td>0.246575</td>
-      <td>34</td>
-      <td>0.116438</td>
-      <td>41</td>
-      <td>0.140411</td>
-      <td>43</td>
-      <td>0.147260</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>117e</td>
-      <td>B</td>
-      <td>protein</td>
-      <td>286</td>
-      <td>PROTEIN_(INORGANIC_PYROPHOSPHATASE)</td>
-      <td>102</td>
-      <td>0.349315</td>
-      <td>72</td>
-      <td>0.246575</td>
-      <td>34</td>
-      <td>0.116438</td>
-      <td>41</td>
-      <td>0.140411</td>
-      <td>43</td>
-      <td>0.147260</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>11as</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>330</td>
-      <td>ASPARAGINE_SYNTHETASE</td>
-      <td>127</td>
-      <td>0.370262</td>
-      <td>86</td>
-      <td>0.250729</td>
-      <td>36</td>
-      <td>0.104956</td>
-      <td>47</td>
-      <td>0.137026</td>
-      <td>47</td>
-      <td>0.137026</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Dealing-with-missing-data:-dropna,-fillna">Dealing with missing data: dropna, fillna<a class="anchor-link" href="#Dealing-with-missing-data:-dropna,-fillna">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[103]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># [In] len(df[df[&#39;family&#39;].str.contains(&#39;MYOGLOBIN&#39;)])   </span>
-<span class="c1"># [Out] cannot index with vector containing NA / NaN values</span>
-<span class="c1"># How to deal with missing data?</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 1.- How to identify missing values??</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>   <span class="c1">#family contains null elements</span>
-<span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">()</span>    <span class="c1"># family true: means it contains null elements</span>
+<span class="n">null_2010</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="c1">#null_2010.abbreviation.unique()</span>
 </pre></div>
 
 </div>
@@ -13740,129 +13194,23 @@ Name: type, dtype: object</pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-RangeIndex: 431023 entries, 0 to 431022
-Data columns (total 15 columns):
-pdbid         431023 non-null object
-chain         431023 non-null object
-type          431023 non-null object
-length        431023 non-null int64
-family        430997 non-null object
-nhydropho     431023 non-null int64
-%nhydropho    431023 non-null float64
-npolar        431023 non-null int64
-%npolar       431023 non-null float64
-naroma        431023 non-null int64
-%naroma       431023 non-null float64
-nposich       431023 non-null int64
-%nposich      431023 non-null float64
-nnegach       431023 non-null int64
-%nnegach      431023 non-null float64
-dtypes: float64(5), int64(6), object(4)
-memory usage: 49.3+ MB
+Int64Index: 106 entries, 2 to 2539
+Data columns (total 6 columns):
+state            104 non-null object
+abbreviation     104 non-null object
+area (sq. mi)    104 non-null float64
+ages             106 non-null object
+year             106 non-null int64
+population       106 non-null float64
+dtypes: float64(2), int64(1), object(3)
+memory usage: 5.8+ KB
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[95]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>pdbid         False
-chain         False
-type          False
-length        False
-family         True
-nhydropho     False
-%nhydropho    False
-npolar        False
-%npolar       False
-naroma        False
-%naroma       False
-nposich       False
-%nposich      False
-nnegach       False
-%nnegach      False
-dtype: bool</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>   <span class="c1">#isnull returns a true/false matrix</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[98]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>pdbid          0
-chain          0
-type           0
-length         0
-family        26
-nhydropho      0
-%nhydropho     0
-npolar         0
-%npolar        0
-naroma         0
-%naroma        0
-nposich        0
-%nposich       0
-nnegach        0
-%nnegach       0
-dtype: int64</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[114]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">null_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>   <span class="c1">#print null rows</span>
-<span class="n">null_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[114]:</div>
+<div class="prompt output_prompt">Out[180]:</div>
 
 
 
@@ -13885,113 +13233,32 @@ dtype: int64</pre>
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>8040</th>
-      <td>1dy3</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>158</td>
+      <th>2538</th>
       <td>NaN</td>
-      <td>68</td>
-      <td>0.419753</td>
-      <td>38</td>
-      <td>0.234568</td>
-      <td>17</td>
-      <td>0.104938</td>
-      <td>19</td>
-      <td>0.117284</td>
-      <td>20</td>
-      <td>0.123457</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>under18</td>
+      <td>2010</td>
+      <td>74119556.0</td>
     </tr>
     <tr>
-      <th>39551</th>
-      <td>1qo2</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>241</td>
+      <th>2539</th>
       <td>NaN</td>
-      <td>93</td>
-      <td>0.378049</td>
-      <td>53</td>
-      <td>0.215447</td>
-      <td>20</td>
-      <td>0.081301</td>
-      <td>40</td>
-      <td>0.162602</td>
-      <td>40</td>
-      <td>0.162602</td>
-    </tr>
-    <tr>
-      <th>39552</th>
-      <td>1qo2</td>
-      <td>B</td>
-      <td>protein</td>
-      <td>241</td>
       <td>NaN</td>
-      <td>93</td>
-      <td>0.378049</td>
-      <td>53</td>
-      <td>0.215447</td>
-      <td>20</td>
-      <td>0.081301</td>
-      <td>40</td>
-      <td>0.162602</td>
-      <td>40</td>
-      <td>0.162602</td>
-    </tr>
-    <tr>
-      <th>109996</th>
-      <td>2wnb</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>298</td>
       <td>NaN</td>
-      <td>94</td>
-      <td>0.304207</td>
-      <td>83</td>
-      <td>0.268608</td>
-      <td>46</td>
-      <td>0.148867</td>
-      <td>51</td>
-      <td>0.165049</td>
-      <td>35</td>
-      <td>0.113269</td>
-    </tr>
-    <tr>
-      <th>302171</th>
-      <td>5a5w</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>253</td>
-      <td>NaN</td>
-      <td>106</td>
-      <td>0.403042</td>
-      <td>73</td>
-      <td>0.277567</td>
-      <td>23</td>
-      <td>0.087452</td>
-      <td>35</td>
-      <td>0.133080</td>
-      <td>26</td>
-      <td>0.098859</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>309326295.0</td>
     </tr>
   </tbody>
 </table>
@@ -14006,23 +13273,13 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[191]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 2.- dropna --- returns a serie of non-null data : drop </span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[115]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s1">&#39;protein&#39;</span><span class="p">))</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">data_2010nonull</span><span class="o">=</span><span class="n">data_2010</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>  <span class="c1">#ignore NaN columns</span>
+<span class="n">data_2010_total</span><span class="o">=</span><span class="n">data_2010nonull</span><span class="p">[</span><span class="n">data_2010nonull</span><span class="p">[</span><span class="s1">&#39;ages&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;total&#39;</span><span class="p">]</span>
+<span class="nb">sum</span><span class="p">(</span><span class="n">data_2010_total</span><span class="p">[</span><span class="s1">&#39;population&#39;</span><span class="p">])</span>  <span class="c1"># </span>
+<span class="n">data_2010_total</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -14035,74 +13292,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[115]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>431023</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;family&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">())</span>  <span class="c1">#Not null</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[117]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>430997</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">null_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>
-<span class="n">null_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[17]:</div>
+<div class="prompt output_prompt">Out[191]:</div>
 
 
 
@@ -14125,113 +13315,59 @@ dtype: int64</pre>
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>8040</th>
-      <td>1dy3</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>158</td>
-      <td>NaN</td>
-      <td>68</td>
-      <td>0.419753</td>
-      <td>38</td>
-      <td>0.234568</td>
-      <td>17</td>
-      <td>0.104938</td>
-      <td>19</td>
-      <td>0.117284</td>
-      <td>20</td>
-      <td>0.123457</td>
+      <th>3</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>4785570.0</td>
     </tr>
     <tr>
-      <th>39551</th>
-      <td>1qo2</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>241</td>
-      <td>NaN</td>
-      <td>93</td>
-      <td>0.378049</td>
-      <td>53</td>
-      <td>0.215447</td>
-      <td>20</td>
-      <td>0.081301</td>
-      <td>40</td>
-      <td>0.162602</td>
-      <td>40</td>
-      <td>0.162602</td>
+      <th>91</th>
+      <td>Alaska</td>
+      <td>AK</td>
+      <td>656425.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>713868.0</td>
     </tr>
     <tr>
-      <th>39552</th>
-      <td>1qo2</td>
-      <td>B</td>
-      <td>protein</td>
-      <td>241</td>
-      <td>NaN</td>
-      <td>93</td>
-      <td>0.378049</td>
-      <td>53</td>
-      <td>0.215447</td>
-      <td>20</td>
-      <td>0.081301</td>
-      <td>40</td>
-      <td>0.162602</td>
-      <td>40</td>
-      <td>0.162602</td>
+      <th>101</th>
+      <td>Arizona</td>
+      <td>AZ</td>
+      <td>114006.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>6408790.0</td>
     </tr>
     <tr>
-      <th>109996</th>
-      <td>2wnb</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>298</td>
-      <td>NaN</td>
-      <td>94</td>
-      <td>0.304207</td>
-      <td>83</td>
-      <td>0.268608</td>
-      <td>46</td>
-      <td>0.148867</td>
-      <td>51</td>
-      <td>0.165049</td>
-      <td>35</td>
-      <td>0.113269</td>
+      <th>189</th>
+      <td>Arkansas</td>
+      <td>AR</td>
+      <td>53182.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>2922280.0</td>
     </tr>
     <tr>
-      <th>302171</th>
-      <td>5a5w</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>253</td>
-      <td>NaN</td>
-      <td>106</td>
-      <td>0.403042</td>
-      <td>73</td>
-      <td>0.277567</td>
-      <td>23</td>
-      <td>0.087452</td>
-      <td>35</td>
-      <td>0.133080</td>
-      <td>26</td>
-      <td>0.098859</td>
+      <th>197</th>
+      <td>California</td>
+      <td>CA</td>
+      <td>163707.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>37333601.0</td>
     </tr>
   </tbody>
 </table>
@@ -14246,24 +13382,11 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[204]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#transform the database to consider only non null values</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df2</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
-<span class="n">df2</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">data_2010_total</span><span class="p">[</span><span class="s1">&#39;density&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_2010_total</span><span class="p">[</span><span class="s1">&#39;population&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">data_2010_total</span><span class="p">[</span><span class="s1">&#39;area (sq. mi)&#39;</span><span class="p">]</span>
+<span class="n">data_2010_total</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -14279,54 +13402,20 @@ dtype: int64</pre>
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-Int64Index: 430997 entries, 0 to 431022
-Data columns (total 15 columns):
-pdbid         430997 non-null object
-chain         430997 non-null object
-type          430997 non-null object
-length        430997 non-null int64
-family        430997 non-null object
-nhydropho     430997 non-null int64
-%nhydropho    430997 non-null float64
-npolar        430997 non-null int64
-%npolar       430997 non-null float64
-naroma        430997 non-null int64
-%naroma       430997 non-null float64
-nposich       430997 non-null int64
-%nposich      430997 non-null float64
-nnegach       430997 non-null int64
-%nnegach      430997 non-null float64
-dtypes: float64(5), int64(6), object(4)
-memory usage: 52.6+ MB
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/Users/sandra/anaconda2/lib/python2.7/site-packages/ipykernel_launcher.py:7: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  import sys
 </pre>
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;pdbid&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;1dy3&#39;</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[13]:</div>
+<div class="prompt output_prompt">Out[204]:</div>
 
 
 
@@ -14349,41 +13438,65 @@ memory usage: 52.6+ MB
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+      <th>density</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>8040</th>
-      <td>1dy3</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>158</td>
-      <td>NaN</td>
-      <td>68</td>
-      <td>0.419753</td>
-      <td>38</td>
-      <td>0.234568</td>
-      <td>17</td>
-      <td>0.104938</td>
-      <td>19</td>
-      <td>0.117284</td>
-      <td>20</td>
-      <td>0.123457</td>
+      <th>3</th>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>52423.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>4785570.0</td>
+      <td>91.287603</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Alaska</td>
+      <td>AK</td>
+      <td>656425.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>713868.0</td>
+      <td>1.087509</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>Arizona</td>
+      <td>AZ</td>
+      <td>114006.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>6408790.0</td>
+      <td>56.214497</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>Arkansas</td>
+      <td>AR</td>
+      <td>53182.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>2922280.0</td>
+      <td>54.948667</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>California</td>
+      <td>CA</td>
+      <td>163707.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>37333601.0</td>
+      <td>228.051342</td>
     </tr>
   </tbody>
 </table>
@@ -14398,25 +13511,12 @@ memory usage: 52.6+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[206]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Filling missing values</span>
-
-<span class="n">df3</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;Unknown&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df3</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df3</span><span class="p">[</span><span class="s1">&#39;pdbid&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;1dy3&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#order the dataframe by the density value</span>
+<span class="c1">#DataFrame.sort_values(by, axis=0, ascending=True, inplace=False, kind=&#39;quicksort&#39;, na_position=&#39;last&#39;)[source]</span>
+<span class="n">data_2010_total</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;density&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -14429,7 +13529,7 @@ memory usage: 52.6+ MB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[16]:</div>
+<div class="prompt output_prompt">Out[206]:</div>
 
 
 
@@ -14452,41 +13552,65 @@ memory usage: 52.6+ MB
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>pdbid</th>
-      <th>chain</th>
-      <th>type</th>
-      <th>length</th>
-      <th>family</th>
-      <th>nhydropho</th>
-      <th>%nhydropho</th>
-      <th>npolar</th>
-      <th>%npolar</th>
-      <th>naroma</th>
-      <th>%naroma</th>
-      <th>nposich</th>
-      <th>%nposich</th>
-      <th>nnegach</th>
-      <th>%nnegach</th>
+      <th>state</th>
+      <th>abbreviation</th>
+      <th>area (sq. mi)</th>
+      <th>ages</th>
+      <th>year</th>
+      <th>population</th>
+      <th>density</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>8040</th>
-      <td>1dy3</td>
-      <td>A</td>
-      <td>protein</td>
-      <td>158</td>
-      <td>Unknown</td>
-      <td>68</td>
-      <td>0.419753</td>
-      <td>38</td>
-      <td>0.234568</td>
-      <td>17</td>
-      <td>0.104938</td>
-      <td>19</td>
-      <td>0.117284</td>
-      <td>20</td>
-      <td>0.123457</td>
+      <th>389</th>
+      <td>District of Columbia</td>
+      <td>DC</td>
+      <td>68.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>605125.0</td>
+      <td>8898.897059</td>
+    </tr>
+    <tr>
+      <th>2490</th>
+      <td>Puerto Rico</td>
+      <td>PR</td>
+      <td>3515.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>3721208.0</td>
+      <td>1058.665149</td>
+    </tr>
+    <tr>
+      <th>1157</th>
+      <td>New Jersey</td>
+      <td>NJ</td>
+      <td>8722.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>8802707.0</td>
+      <td>1009.253268</td>
+    </tr>
+    <tr>
+      <th>1914</th>
+      <td>Rhode Island</td>
+      <td>RI</td>
+      <td>1545.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>1052669.0</td>
+      <td>681.339159</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>Connecticut</td>
+      <td>CT</td>
+      <td>5544.0</td>
+      <td>total</td>
+      <td>2010</td>
+      <td>3579210.0</td>
+      <td>645.600649</td>
     </tr>
   </tbody>
 </table>
@@ -14502,12 +13626,17 @@ memory usage: 52.6+ MB
     </div>
   </div>
 
-  <div id="footer">
-    <footer>
-    <a href="privacy.html" title="Privacy" target="_self">Privacy-terms of use. Created by Sandra Acebes Serrano. HTML and CSS Edited using Atom
-    </a> </footer>
 
-  </div>
+
+
+</div>
+</div>
+<div id="footer">
+<footer>
+<a href="privacy.html" title="Privacy" target="_self">Privacy-terms of use. Created by Sandra Acebes Serrano. HTML and CSS Edited using Atom
+</a> </footer>
+
+</div>
 
 </div>
 
